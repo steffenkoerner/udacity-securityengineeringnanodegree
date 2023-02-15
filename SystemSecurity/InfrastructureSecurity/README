@@ -1,0 +1,45 @@
+# Infrastructure Security
+
+Infrastructure security is about securing the network from attacks.
+
+
+## MITRE ATT&CK
+Mitre ATT&CK is a framework and matrix that includes tools, techniques, and procedures used by threat actors.
+
+* Initial Access: entry vectors to gain a foothold in newly compromised systems.
+* Execution: perform actions on compromised systems.
+* Persistence: maintain access in compromised systems.
+* Privilege Escalation: assume higher rights within compromised systems.
+* Defense Evasion: bypass controls inside the victim system.
+* Credential Access: obtain credentials from compromised systems.
+* Discovery: find new possible targets and data within compromised systems.
+* Lateral Movementt: move around compromised systems.
+* Collection: gather information elements from compromised systems.
+* Exfiltration: take data out of the targeted victim.
+* Impact: how it affects victim organization/environment.
+
+More information can be found here: [MITRE ATTA&CK](https://attack.mitre.org/)
+
+## CIS Benchmarks
+The Center for Internet Security (CIS) is a non-profit organisation with a mission to “make the connected world a safer place by developing, validating, and promoting timely best practice solutions against pervasive cyber threats”. CIS uses a consensus process to release benchmarks to safeguard organisations against cyber attacks
+
+CIS Benchmarks provide configuration baselines on how to configure a specific system release securely.
+They can be found here: [CIS Benchmarks](https://learn.cisecurity.org/benchmarks)
+
+An exanple CIS Benchmarks - Ubuntu 18.04 LTS v2.0.1
+
+CIS 1.5.1 Ensure permissions on boot loader config are configured
+Level 1 - Server
+Level 1 - Workstation
+Audit: Verify UID & GID are both 0/root and Access does not grant permissions to group or other:
+
+stat /boot/grub/grub.cfg
+Remediation: chown root:root /boot/grub/grub.cfg
+
+## Firewall
+
+On linux the firewall status can be checked with:  sudo ufw status
+
+## WAF Web Application Firewall
+Serves the same function of a firewall but focused on HTTP traffic, web services.It contains protection against injection attacks (SQL Injection, NoSQL, OS, etc.).
+The most popular open-source WAF is ModSecurity.

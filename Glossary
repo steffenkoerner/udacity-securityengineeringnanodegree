@@ -1,0 +1,84 @@
+KeyTerm	Definition
+* Asset	Anything that can access, communicate and interact inside your perimeter
+* Assets Include	Mobile Devices, Desktops, Laptops, Printers, Servers, Switches, Wifi Access points, Internet of Things Devices
+* ATT&CK	Matrix of attack Tactics Technic and Procedures
+* Brute Force SSH password	Malicious actor uses thc hydra to brute-force ssh password.
+* Center for Internet Security Benchmarks	An organization that publishes best practices in security configuration and hardening of systems.
+* CERT	Computer Emergency Response Teams
+* Checksum	the algorithm used to verify if the software is legitimate.
+* CIS Benchmarks	Industry security configuration best practices
+* CIS Level 1	Basic security requirements needed for a specific system.
+* CIS Level 2	Suggested security settings for greater security. (May result in loss of functionality).
+* Collection	Gather information elements from compromised systems.
+* Credential Access	Malicious actors access a password.
+* Credential Access	Obtain credentials from compromised systems.
+* CVE	Stands for Common Vulnerabilities and Exposures and is a database of common vulnerabilities
+* Defense Evasion	Bypass controls inside the victim system.
+* Discovery	Find new possible targets and data within compromised systems.
+* Execution	Perform actions on compromised systems.
+* Exfiltration	Take data out of the targeted victim.
+* Golden Image	A representation of your organization approved, supported, and managed Operating Systems, Applications, or any other software that is deployed within your perimeter.
+* Impact	How it affects victim organization/environment.
+* Initial Access	Entry vectors to gain a foothold in newly compromised systems.
+* Lateral Movement	Move around compromised systems.
+* Long Term Supported	Stable software maintained over a long period.
+* md5	Message-Digest Algorithm 5 128-bit
+* Mitre Adversarial Tactics, Techniques & Common Knowledge	Known as Mitre ATT&CK a matrix of tactics, techniques & Procedures observed in malicious actors campaigns.
+* Mitre Common Vulnerabilities & Exposures	An industry database of vulnerabilities and exposures.
+* Out of Band Patches	Emergency software releases that are done outside of the normal schedules of releasing software and security updates and patches are referred to as out of band patches.
+
+
+OWASP	Top Web Vulnerabilities
+* OWASP TOP 10	An open-source web applications security project. Top Ten Web vulnerabilities.
+* Patch Tuesday	Patch Tuesday is a term used to describe when Microsoft, Adobe, Oracle, and others regularly release software updates. Usually occurs on the second or sometimes the fourth Tuesday of the month.
+* Perimeter	The boundary between internal networks and the Internet
+* Permanent	They are likely to stay for a very long time. Examples of this are Servers, Desktops, Network Switches, Firewalls, WiFi Access Points
+* Persistence	Maintain access in compromised systems.
+* Privilege Escalation	Assume higher rights within compromised systems.
+* Procedures	How to perform the execution. Emotet a crimeware has been observed using a hardcoded list of passwords to brute force user accounts.
+* Responsible Disclosure	The disclosure of know vulnerabilities and mitigations (if they have been found) after a 90 day period
+* Service Packs	very large pieces of code that patch and update many bugs and vulnerabilities.
+* sha	Secure Hash Algorithm 224-512 bit
+* Shadow IT	This is a situation that occurs when users bring their own devices to bypass security limitations and controls.
+* Software Inventory	The act of registering ALL the applications that are running in your perimeter hosts.
+* Software Packages	Software identified by versions, so your inventory needs to track it as well.
+* Tactics	A established behavior of an actor.
+* Techniques	The specific execution of that behavior.
+* Temporary	They may stay for some time but not too long. E.g. phones that employees bring and connect into the perimeter WiFi, contractor workstations that are removed once their work is finished, laptops issued to contractors which are returned when work is completed
+* Third-Party Updates	Applications that are not native to your operating system and main hardware or software vendors.
+* Transient	These are assets that are there for a specific amount of time. E.g. a vendor comes and joins your network for support or updates, a visitor connects to a company's guest WiFi, a customer comes for a meeting and connects to your conference room network drop
+
+* Active Directory	A Microsoft developed directory service that maps network resources within a Microsoft network such as users, servers, desktops, network shares, printers, devices, etc.
+* Application	This is the top layer and manages the interaction of applications with the network. In this layer, we find protocols such as HTTP (Webpages) and other cleartext protocols such as File Transfer Protocol or Telnet which is a remote access protocol.
+* Application Program Interface (API)	A web interface that interacts with services and applications.
+* Data Link	Transmission between two connected nodes in a network. Examples Address Resolution Protocol which resolves physical addresses to IP address in a
+* Local Area Network and Point to Point Transmission Protocol which usually the protocol used by some virtual private networks to encapsulate packets.
+* DNS	Domain Name Service is the naming service of the internet
+* DNS Cache Poisoning	A local cache of information being manipulated by attackers.
+* DNS Recursion	The ability to perform queries to different servers if the servers have a bad record like 8.8.8.8 (Google), but it is instead 8.8.8.8 (badguy).
+* Execute	You can open a file and execute code and os binaries against it.
+* Group	The owner or Interacting entity on file may be part of a group that has a set of permissions per their grouping. A group can have read-only, write, or execute privileges.
+* Group Policies	A feature within Active Directory Domains that controls operating environments of users and computers.
+* IP Reputation	A database of known IP addresses used in past attacks.
+* IPv6	The newest version of Internet Protocol.
+* Multicast	A direct data flow that allows multiple destinations.
+* Network	This is one of the main protocols used in monitoring and where IPv4 and IPv6 are found. This is where your IP address is found. You will do a lot of commands that have to do with IPv4. This layer deals with routing, addressing, and traffic control.
+OU	Organizational Unit
+* Owner	Entity that owns the file. Sometimes the creator is the owner. Creators can read, write, and execute.
+* Physical	Transmission and reception of data via a physical medium, Examples of this are Ethernet which is usually what most current LAN networks are based on, and WiFi which coexist with LANs pretty much everywhere.
+* Presentation	This layer formats and deliver information to the application layer for more processing or display. Examples of this layer are ASCII which is what we know as plain text and MIME Multipurpose Internet Mail Extensions which is the standard format for email messages supporting attachments like images, video, or audio.
+* Promiscuous Port (P-Port)	A port that can communicate with all other ports on a VLAN.
+* Read	You can only open a file and its contents.
+* Session	This layer provides mechanisms for opening, closing, and managing sessions. Examples of this are Unix Named pipes used for inter-process communication or SOCKS a protocol that transfers packets between client and servers via a proxy server.
+* Stateful	Looks beyond just a signature and finds patterns or heuristic-based on data to block attacks.
+* Stateless	Web Application Firewalls that are based on static signatures.
+* Switched Spoofing VLAN Attacks	Creates a fake switch and achieves a trunking link between VLANs.
+* Transport Layer	This layer provides communication services used by applications, especially TCP which is a connection-oriented protocol, or connectionless protocol such as UDP. This has security implications which we will explore later in this course.
+* Unified Threat Management Device	A firewall device that does more than simple static firewall rules
+* VLAN	Network broadcast domains isolated in a computer network at layer 2 (Data Link)
+* VLAN Hopping Exploits	Jumping from VLANs in an unauthorized manner.
+* Web Application Firewall	It serves the same function of a firewall but focused on HTTP traffic, web services.
+* World	Anyone outside owner and groups. Permissions that apply to anyone or everyone.
+* Write	You can write to a file and update its contents.
+* Zombies	Compromised devices that can be used to commit further attacks.
+* Zone Transfers	The ability to perform a request to other servers to replicate their database.

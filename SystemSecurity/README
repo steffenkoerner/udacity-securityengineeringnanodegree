@@ -1,0 +1,68 @@
+# Summary System Security
+
+This chapter talks about how to improve the security of the system. There are many aspects to consider here. 
+
+## Goal of security
+The goal of security is defined as the CIA Triad.
+*Confidentiality: Keeping data secret or private.
+*Integrity: Ensuring the legitimacy of data so it can be trusted.
+*Availability: Ensuring networks, systems, and applications are up and running.
+
+Security Engineering is a very difficult task thus the he Open Web Application Security Project (OWASP) organisation has created many tools, documents and guidelines to support a Security Engineer. The most fammous guidelines are the OWASP Secure Design Principles.
+
+OWASP Secure Design Principles (OWASP Top 10)
+
+1. Minimise attack surface area
+2. Establish secure defaults
+3. The principle of Least privilege
+4. The principle of Defence in depth
+5. Fail securely
+6. Don’t trust services
+7. Separation of duties
+8. Avoid security by obscurity
+9. Keep security simple
+10. Fix security issues correctly
+
+## Thread Model
+Vulnerability
+A vulnerability is a weakness in a system or software that can be exploited to make a system behave in an unintended way.
+
+Threat
+A threat is a hypothetical event wherein an attacker could use (or exploit) a vulnerability.
+
+Asset Valuation
+Asset - An asset in the context of information security is anything of value to a business that is related to information systems.
+
+
+## Third Party Vulnerabilities
+It's important to check the system for third party vulnerabilities. This can be example security issues with some application like apache. To scan for vulnerabilities a scanner like [OpenVas](https://www.openvas.org/) can be used.
+
+It reports vulnerabilities of the system and also reports the severity of the issue. This gives some useful information what applications should be patched.
+
+## Authentication
+Authentication is about identifcation of the user. It's about confirming the user identity. The most common identification happens via username and password. This is called single factor authentication. If two information are used like e.g. password and hardware token, then it is called two factor authentication. If more than 2 are used then
+it's called multi factor authentication.
+
+There exist multiple factor categories:
+* Knowledge - Something you know.
+* Possession - Something you have.
+* Inherence - Something you are.
+* Location - Where you are.
+* Behavior - Something you do.
+
+Passwords should always been stored via a hasfunction and a salt. A salt is just fixed string that is put at the front or end of the password before hashing.
+A hashfunction should be used instead of encrpytion as a hasfunction is not reversible, meaning it's a one way function. A salt is used to avoid rainbow table attacks.A rainbowtable contains pre calculated hashfunction for strings, that are used to map a hashfunction to string.
+
+## Authorization
+Authorization defines the permissions of an authorized user. This contains e.g. which files a user can edit. Authorization should be done by the Principle of Least Privilege. This means a user should only have the permissions that he needs to do his work and not more.
+
+## Isolation
+Isolation achieves a virtual separation between running system processes and the main operating system. Thus if a system process gets compromised it only affects the isolated system instead of the entire system.
+
+One example of isolation is to use containers like e.g. docker. While docker is a high level implementation the basic principles can also be done by chroot. Chroot allows to change the root directory from / to anything else. This restricts the access of the process and it's children to only this directory.The newly created root directory is called chroot jail. 
+
+The set up of a new chroot jail is basically very simple. But it needs a lot of configuration as all the needed 
+## Auditing
+
+## Project
+The final project for the system security part can be found here:
