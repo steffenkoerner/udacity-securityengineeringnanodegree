@@ -4,7 +4,7 @@ meta:
 	author = "@steffenkoerner"
 	version = "1.0"
 strings:
-     $domain = "mine.ppxxmr.com:7777"
+     $domain = "darkl0rd.com:7758"
 condition:
      $domain
 }
