@@ -82,3 +82,35 @@ OU	Organizational Unit
 * Write	You can write to a file and update its contents.
 * Zombies	Compromised devices that can be used to commit further attacks.
 * Zone Transfers	The ability to perform a request to other servers to replicate their database.
+
+* Application	Application events at the machine for example Microsoft Internet Information Server.
+* Audit Failure	A security audit condition logged.
+* Audit Success	A security audit condition logged.
+* Centralized Logging	Storing logs from multiple devices in one location.
+* Critical	A severe failure or problem has occurred.
+* Endpoint security	A security approach that focuses on the protection of end-user devices connected inside the perimeter.
+* Error	A problem or failure.
+* Firewalls	A firewall can manage traffic and send logs when issues are detected.
+* Forwarded Events	Events sent to the machine from other machines if set as a collector.
+* Hybrid Infrastructure	When companies rely on both on-prem and cloud providers for infrastructure as a service, platform as a service, and software as a service (IAAS, PAAS, SAAS).
+* Information	An event has occurred.
+* IPv4 Header	(14 fields) The informational fields about the IPv4 packet.
+* IPV4 Payload	Actual data being transported.
+* IPv4 Trailer	Enables the receiver to know the packet has ended and been received completely.
+* Mobiles	These include things like smartphones and tablets.
+* Network Packet	A unit of data that crosses a network such as an Ethernet-based packet switch network.
+* Network Promiscuous Mode	The ability of an Ethernet or Wi-Fi interface to inspect the full packet in its entirety.
+* Routers	The prime network management devices and are likely the devices where you might operate and monitor when it comes to network monitoring or management.
+* Security	Audited events, login events, elevated events.
+* Servers	Servers are the primary sources of services and applications.
+* Setup	Operating system installation and updates.
+* SIEM	Security Information and Event Management Software Platform
+* Switches	Those devices are only seen in the server rack, usually where all your network drops connect.
+* System	Events related to specific windows system events.
+* TCPDump	Packet network analyzer, allows the display of TCP/IP packets that supports Unix like Systems like Linux, macOS, FreeBSD
+* TShark	The terminal version of Wireshark
+* Warning	An event that may indicate a problem.
+* WiFi Access Points	Provide wireless access to their employees, allowing them to work from anywhere inside the office space.
+* Windows Sysmon	A Microsoft Window system service to monitor system activity and provide Windows Logs
+* WireShark	Open source packet analyzer, used for network troubleshooting, and analysis.
+* Workstations	Workstations are the main clients of the servers.

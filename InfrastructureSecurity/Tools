@@ -1,0 +1,27 @@
+## Tools
+* AppArmor
+* OsQuery
+* OpenVas
+* Wireshark
+* tcpdumb
+* auditd
+    * autrace 
+    * ausearch
+    * aureport
+    * auditctl
+* ps
+* netstat
+* dmesg
+
+## Log aggregation Tool
+* Nagios
+* Graylog
+* Elastic Logstash Kibana (ELK)
+
+
+
+## locations
+* /etc/password
+* /etc/shadow
+* /etc/group
+* /var/logs e.g. syslog

@@ -43,3 +43,6 @@ On linux the firewall status can be checked with:  sudo ufw status
 ## WAF Web Application Firewall
 Serves the same function of a firewall but focused on HTTP traffic, web services.It contains protection against injection attacks (SQL Injection, NoSQL, OS, etc.).
 The most popular open-source WAF is ModSecurity.
+
+## Monitoring Network Traffic
+Network traffic can be captured with tools like wireshark and tcpdump

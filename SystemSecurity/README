@@ -56,13 +56,32 @@ A hashfunction should be used instead of encrpytion as a hasfunction is not reve
 ## Authorization
 Authorization defines the permissions of an authorized user. This contains e.g. which files a user can edit. Authorization should be done by the Principle of Least Privilege. This means a user should only have the permissions that he needs to do his work and not more.
 
+Mandatory Access Control: Mandatory Access Controls: Access is based on an object and a subject. When a subject tries to access an object, security attributes determine the level of access.
+
+Discretionary Access Control:  Access restrictions based on the identity of subjects or groups to which they belong.
+
+Role-Based Access Control: Can implement MAC or DAC access control models.
+
 ## Isolation
 Isolation achieves a virtual separation between running system processes and the main operating system. Thus if a system process gets compromised it only affects the isolated system instead of the entire system.
 
 One example of isolation is to use containers like e.g. docker. While docker is a high level implementation the basic principles can also be done by chroot. Chroot allows to change the root directory from / to anything else. This restricts the access of the process and it's children to only this directory.The newly created root directory is called chroot jail. 
 
 The set up of a new chroot jail is basically very simple. But it needs a lot of configuration as all the needed 
+
+
 ## Auditing
+auditd is a log tool for system events. It can log information like executed commands, system calls, file access information and network statistic.
+It is directly build into the linux kernel. Thus, it can see everything from the perspective of the kernel.
+If auditd is enabled the logs can be found in /var/log/auditd.log. Otherwise they are stored in dmesg.
+
+## Monitoring
+There are multiple tools for monitoring low level operating systems actions and performance.
+One such tool is [osquery](https://www.osquery.io/)
+It stores the operations in a relational database that can be queried with SQL.
+
+AppArmor is a Mandatory Access Control (MAC) system which is a kernel (LSM) enhancement to confine programs to a limited set of resources. AppArmor's security model is to bind access control attributes to programs rather than to users.
+It's by default installed in ubuntu.
 
 ## Project
 The final project for the system security part can be found here:
