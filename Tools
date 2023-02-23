@@ -4,6 +4,9 @@
 * OpenVas
 * Wireshark
 * tcpdumb
+* pgrep
+* ipv6toolkit
+* nmap: Nmap can discover, hosts, and services. It can also be used for vulnerability discovery.
 * auditd
     * autrace 
     * ausearch
@@ -12,6 +15,12 @@
 * ps
 * netstat
 * dmesg
+* stat : display file or file system status
+* John The Ripper
+* Hashcat
+* NCrack
+* THC-Hydra
+
 
 ## Log aggregation Tool
 * Nagios

@@ -114,3 +114,24 @@ OU	Organizational Unit
 * Windows Sysmon	A Microsoft Window system service to monitor system activity and provide Windows Logs
 * WireShark	Open source packet analyzer, used for network troubleshooting, and analysis.
 * Workstations	Workstations are the main clients of the servers.
+
+* Credential Management	Workflows and procedures related to the provisioning, use, and management of credentials within your perimeter, either issued by you or by a third party.
+* Cryptographic Keys	A string of data used to unlock cryptographic functions.
+* Digital Certificates	An electronic document that proves ownership of a public cryptographic key.
+* Discretionary Access Control	Access restrictions based on the identity of subjects or groups to which they belong.
+* Hash	A one-way transformation of a password into a string.
+* Identity access management, IAM	Allows creation of users, application of access controls, and the application of authentication authorization methods
+* Mandatory Access Controls	Access is based on an object and a subject.
+* Multi-Factor Authentication (MFA)	The use of more than ONE credential/authentication
+* Principle of Least Privilege (PoLP)	A user or process is given enough privileges to perform its functions.
+* Public Key Infrastructure	Refers to the settings related to software, roles, policy, and hardware needed to create and issue, store and revoke
+* Role-Based Access Control	Acces based on specific roles.
+* Security Association	Protocols involved in the encryption process and key exchange like Internet Key Exchange protocol.
+* Segregation of duties	A check-in place to require more than one person to complete a task.
+
+* Denial of Service	A type of attack where legitimate users are prevented access to a system, application, or host.
+* Differential	Only copies new files or files that were changed since the last backup.
+* Full	This the first and full copy of the data.
+* Incremental	Copies all files and data that was changed regardless if it was full or differential.
+* Nmap	Open-source Network Scanner created by Gordon Lyon AKA "Fyodor"
+* PAM	Security mechanism in Linux Operating System that allows the use of different authentication methods beyond simple username and password.
