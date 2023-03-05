@@ -135,3 +135,29 @@ OU	Organizational Unit
 * Incremental	Copies all files and data that was changed regardless if it was full or differential.
 * Nmap	Open-source Network Scanner created by Gordon Lyon AKA "Fyodor"
 * PAM	Security mechanism in Linux Operating System that allows the use of different authentication methods beyond simple username and password.
+
+* robots.txt - The robots.txt file is used by search engineer to index a website.
+* Web Fuzzing - When looking for hidden pages/areas or common files used by frameworks, you should use a fuzzing software that can quickly iterate through a file containing this information.
+* Brute Force Login - An automated way of trying combinations of Username and Password to bypass authentication.
+* Hashes - Hashes are mathematically calculated values that were generated from variable lengths of data.
+* Encryption - Encryption is the process of taking data and applying mathematical calculation to help hide/mask the original data that was used. The process of calculating this information is a two-way process, which means it can be undone as long as you have the proper key to unlock it.
+* Encoders - Encoders are used to transform data from one form to another.
+* Pepper - A static text that is used to harden passwords and make them more difficult to crack.
+* Salt - A unique text that is generated per password and should never be reused/repeated and is save in the database alongside the hash password.
+* Rainbow Tables - A rainbow table is simply a table file that is filled with pre-calculated hashes.#
+
+* Static Application Security Testing (SAST) - is a tool used to analyze application source code or compiled code to help identify possible security vulnerabilities.
+* Bandit - is an open source tool that was designed to find security issues within Python code.
+* Discovery - is how easy it is for a group of attackers to discover the vulnerability.
+* Exploitable - is how easy it is for a group of attackers to actually exploit the vulnerability.
+* Awareness - has to do with how well known is this vulnerability to the type of attackers that will attack this type of system.
+* Detection - has to do with our ability to actually detect if this attack is or was executed.
+
+Attack Vector - The Attack Vector (AV) refers to how the vulnerability might by exploited.
+Attack Complexity - The Attack Complexity (AC) refers to if there needs to be pre-existing conditions or state to exploit.
+Privileges Required - Privileges Required (PR), is the level of privilege or access that an attacker will need.
+User Interaction - User Interaction (UI) refers to if a user interacts is required for the exploit.
+Confidentiality - Confidentiality (C) refers to the level of data access the attacker has access to.
+Integrity - Integrity (I) refers to the level of control the attacker has over the protected information.
+Availability - Availability (A) refers to the attacker's ability to control access to the system. An example is DDOS, system crashes or system offline
+Scope - Scope (S) refers to the impact the compromised system has on other systems, and you might notice that there is no score for this field.
