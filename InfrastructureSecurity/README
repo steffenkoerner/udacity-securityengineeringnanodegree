@@ -37,7 +37,6 @@ stat /boot/grub/grub.cfg
 Remediation: chown root:root /boot/grub/grub.cfg
 
 ## Firewall
-
 On linux the firewall status can be checked with:  sudo ufw status
 
 ## WAF Web Application Firewall
@@ -63,47 +62,47 @@ Meanwhile, SSL operates at the application layer of the OSI model. It encrypts H
 ## Top 8 Security Failures
 Top Security Failures
 
-Exposed Services
-Anonymous access to Access Server with FTP Server.
-Unnecessary Accounts, Excessive Permissions
-Guest accounts enabled with access to company file servers.
-Denial of Service
-Business Application Server is taken down by attackers.
-Unpatched, Outdated Vulnerable Services, Applications
-Outdated Desktop computers infected with Ransomware.
-Weak access controls, exposed credentials
-The developer places remote access credentials in the code repository.
-No backup or disaster recovery plan
-Hardware failure causes the company's data loss.
-Unknown services, applications, and assets running inside the perimeterr
-Users running crypto mining software.
-No basic AV, Operating Systems, Firewall Protections
-Computer Worm takes over all desktops.
+* Exposed Services
+    *Anonymous access to Access Server with FTP Server.
+* Unnecessary Accounts, Excessive Permissions
+    * Guest accounts enabled with access to company file servers.
+* Denial of Service
+    * Business Application Server is taken down by attackers.
+* Unpatched, Outdated Vulnerable Services, Applications
+    * Outdated Desktop computers infected with Ransomware.
+* Weak access controls, exposed credentials
+    * The developer places remote access credentials in the code repository.
+* No backup or disaster recovery plan
+    * Hardware failure causes the company's data loss.
+* Unknown services, applications, and assets running inside the perimeterr
+    * Users running crypto mining software.
+* No basic AV, Operating Systems, Firewall Protections
+    * Computer Worm takes over all desktops.
 
 ## Nmap Modes
 Nmap NSE Categories
 
 Category	Function
-Auth	Use or Bypass Authentication Credentials.
-Broadcast	Uses broadcast technique to discover hosts not found in normal Nmap discovery operations.
-Brute	Uses Brute Force Attacks to guess credentials.
-Default	series of scripts grouped according to specific criteria and run by default using mmap -Sc host or network CIDR.
-Discovery	Specific discovery tasks addressing services such as SNMP, or Directory Services, or SMB enumeration.
-DoS	Scripts that will replicate denial of service attacks.
-Exploit	Scripts that execute exploits.
-External	These scripts may send requests to third parties, or other network resources.
-Fuzzer	Sends server software unexpected or randomized fields in each packet.
-Intrusive	High-risk script that is likely to crash services.
-Malware	Tests a platform to see if it is infected with malware or a backdoor.
-Safe	Scripts designed not to crash services.
-Version	Scripts that extend detection capabilities.
-Vuln	Checks for specific types of vulnerabilities.
+* Auth	Use or Bypass Authentication Credentials.
+* Broadcast	Uses broadcast technique to discover hosts not found in normal Nmap discovery operations.
+* Brute	Uses Brute Force Attacks to guess credentials.
+* Default	series of scripts grouped according to specific criteria and run by default using mmap -Sc host or network CIDR.
+* Discovery	Specific discovery tasks addressing services such as SNMP, or Directory Services, or SMB enumeration.
+* DoS	Scripts that will replicate denial of service attacks.
+* Exploit	Scripts that execute exploits.
+* External	These scripts may send requests to third parties, or other network resources.
+* Fuzzer	Sends server software unexpected or randomized fields in each packet.
+* Intrusive	High-risk script that is likely to crash services.
+* Malware	Tests a platform to see if it is infected with malware or a backdoor.
+* Safe	Scripts designed not to crash services.
+* Version	Scripts that extend detection capabilities.
+* Vuln	Checks for specific types of vulnerabilities.
 
 Community Popular NSE Vulnerability Scripts --script
 
-Vulnscan
-Uses its own CVE database you must clone the repo
-Nmap-vulners
-Uses its own CVE database as well
-Vuln
-Nmap native vulnerability CVE database
+* Vulnscan
+    * Uses its own CVE database you must clone the repo
+* Nmap-vulners
+    * Uses its own CVE database as well
+* Vuln
+    * Nmap native vulnerability CVE database

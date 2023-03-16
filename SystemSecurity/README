@@ -4,11 +4,11 @@ This chapter talks about how to improve the security of the system. There are ma
 
 ## Goal of security
 The goal of security is defined as the CIA Triad.
-*Confidentiality: Keeping data secret or private.
-*Integrity: Ensuring the legitimacy of data so it can be trusted.
-*Availability: Ensuring networks, systems, and applications are up and running.
+* Confidentiality: Keeping data secret or private.
+* Integrity: Ensuring the legitimacy of data so it can be trusted.
+* Availability: Ensuring networks, systems, and applications are up and running.
 
-Security Engineering is a very difficult task thus the he Open Web Application Security Project (OWASP) organisation has created many tools, documents and guidelines to support a Security Engineer. The most fammous guidelines are the OWASP Secure Design Principles.
+Security Engineering is a very difficult task thus the he Open Web Application Security Project (OWASP) organisation has created many tools, documents and guidelines to support a Security Engineer. The most famous guidelines are the OWASP Secure Design Principles.
 
 OWASP Secure Design Principles (OWASP Top 10)
 
@@ -24,13 +24,13 @@ OWASP Secure Design Principles (OWASP Top 10)
 10. Fix security issues correctly
 
 ## Thread Model
-Vulnerability
+### Vulnerability
 A vulnerability is a weakness in a system or software that can be exploited to make a system behave in an unintended way.
 
-Threat
+### Threat
 A threat is a hypothetical event wherein an attacker could use (or exploit) a vulnerability.
 
-Asset Valuation
+### Asset Valuation
 Asset - An asset in the context of information security is anything of value to a business that is related to information systems.
 
 
@@ -50,17 +50,21 @@ There exist multiple factor categories:
 * Location - Where you are.
 * Behavior - Something you do.
 
-Passwords should always been stored via a hasfunction and a salt. A salt is just fixed string that is put at the front or end of the password before hashing.
+Passwords should always been stored via a hasfunction and a salt. A salt is just fixed string that is put at the front or end of the password before hashing. The salt should be different for each entry. Additionally a pepper should be added.  A pepper is a  static text that is used to harden passwords and make them more difficult to crack.
+
 A hashfunction should be used instead of encrpytion as a hasfunction is not reversible, meaning it's a one way function. A salt is used to avoid rainbow table attacks.A rainbowtable contains pre calculated hashfunction for strings, that are used to map a hashfunction to string.
 
 ## Authorization
 Authorization defines the permissions of an authorized user. This contains e.g. which files a user can edit. Authorization should be done by the Principle of Least Privilege. This means a user should only have the permissions that he needs to do his work and not more.
 
-Mandatory Access Control: Mandatory Access Controls: Access is based on an object and a subject. When a subject tries to access an object, security attributes determine the level of access.
+### Mandatory Access Control
+Mandatory Access Controls: Access is based on an object and a subject. When a subject tries to access an object, security attributes determine the level of access.
 
-Discretionary Access Control:  Access restrictions based on the identity of subjects or groups to which they belong.
+### Discretionary Access Control
+Access restrictions based on the identity of subjects or groups to which they belong.
 
-Role-Based Access Control: Can implement MAC or DAC access control models.
+### Role-Based Access Control
+Can implement MAC or DAC access control models.
 
 ## Isolation
 Isolation achieves a virtual separation between running system processes and the main operating system. Thus if a system process gets compromised it only affects the isolated system instead of the entire system.
@@ -83,5 +87,3 @@ It stores the operations in a relational database that can be queried with SQL.
 AppArmor is a Mandatory Access Control (MAC) system which is a kernel (LSM) enhancement to confine programs to a limited set of resources. AppArmor's security model is to bind access control attributes to programs rather than to users.
 It's by default installed in ubuntu.
 
-## Project
-The final project for the system security part can be found here:

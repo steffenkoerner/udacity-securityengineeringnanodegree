@@ -26,9 +26,6 @@ KeyTerm	Definition
 * Mitre Adversarial Tactics, Techniques & Common Knowledge	Known as Mitre ATT&CK a matrix of tactics, techniques & Procedures observed in malicious actors campaigns.
 * Mitre Common Vulnerabilities & Exposures	An industry database of vulnerabilities and exposures.
 * Out of Band Patches	Emergency software releases that are done outside of the normal schedules of releasing software and security updates and patches are referred to as out of band patches.
-
-
-OWASP	Top Web Vulnerabilities
 * OWASP TOP 10	An open-source web applications security project. Top Ten Web vulnerabilities.
 * Patch Tuesday	Patch Tuesday is a term used to describe when Microsoft, Adobe, Oracle, and others regularly release software updates. Usually occurs on the second or sometimes the fourth Tuesday of the month.
 * Perimeter	The boundary between internal networks and the Internet
@@ -47,7 +44,6 @@ OWASP	Top Web Vulnerabilities
 * Temporary	They may stay for some time but not too long. E.g. phones that employees bring and connect into the perimeter WiFi, contractor workstations that are removed once their work is finished, laptops issued to contractors which are returned when work is completed
 * Third-Party Updates	Applications that are not native to your operating system and main hardware or software vendors.
 * Transient	These are assets that are there for a specific amount of time. E.g. a vendor comes and joins your network for support or updates, a visitor connects to a company's guest WiFi, a customer comes for a meeting and connects to your conference room network drop
-
 * Active Directory	A Microsoft developed directory service that maps network resources within a Microsoft network such as users, servers, desktops, network shares, printers, devices, etc.
 * Application	This is the top layer and manages the interaction of applications with the network. In this layer, we find protocols such as HTTP (Webpages) and other cleartext protocols such as File Transfer Protocol or Telnet which is a remote access protocol.
 * Application Program Interface (API)	A web interface that interacts with services and applications.
@@ -82,7 +78,6 @@ OU	Organizational Unit
 * Write	You can write to a file and update its contents.
 * Zombies	Compromised devices that can be used to commit further attacks.
 * Zone Transfers	The ability to perform a request to other servers to replicate their database.
-
 * Application	Application events at the machine for example Microsoft Internet Information Server.
 * Audit Failure	A security audit condition logged.
 * Audit Success	A security audit condition logged.
@@ -153,11 +148,11 @@ OU	Organizational Unit
 * Awareness - has to do with how well known is this vulnerability to the type of attackers that will attack this type of system.
 * Detection - has to do with our ability to actually detect if this attack is or was executed.
 
-Attack Vector - The Attack Vector (AV) refers to how the vulnerability might by exploited.
-Attack Complexity - The Attack Complexity (AC) refers to if there needs to be pre-existing conditions or state to exploit.
-Privileges Required - Privileges Required (PR), is the level of privilege or access that an attacker will need.
-User Interaction - User Interaction (UI) refers to if a user interacts is required for the exploit.
-Confidentiality - Confidentiality (C) refers to the level of data access the attacker has access to.
-Integrity - Integrity (I) refers to the level of control the attacker has over the protected information.
-Availability - Availability (A) refers to the attacker's ability to control access to the system. An example is DDOS, system crashes or system offline
-Scope - Scope (S) refers to the impact the compromised system has on other systems, and you might notice that there is no score for this field.
+* Attack Vector - The Attack Vector (AV) refers to how the vulnerability might by exploited.
+* Attack Complexity - The Attack Complexity (AC) refers to if there needs to be pre-existing conditions or state to exploit.
+* Privileges Required - Privileges Required (PR), is the level of privilege or access that an attacker will need.
+* User Interaction - User Interaction (UI) refers to if a user interacts is required for the exploit.
+* Confidentiality - Confidentiality (C) refers to the level of data access the attacker has access to.
+* Integrity - Integrity (I) refers to the level of control the attacker has over the protected information.
+* Availability - Availability (A) refers to the attacker's ability to control access to the system. An example is DDOS, system crashes or system offline
+* Scope - Scope (S) refers to the impact the compromised system has on other systems, and you might notice that there is no score for this field.
